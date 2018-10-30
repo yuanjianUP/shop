@@ -1,0 +1,174 @@
+---------------------------------------------------------------
+[ 2018-07-12T20:56:18+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/goods/add
+[ info ] www.jshop.com/admin/goods/add [运行时间：0.144670s][吞吐率：6.91req/s] [内存消耗：2,583.41kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8812893184',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\wamp\shop\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\goods\add.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003033s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.066536s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` <> 0 [ RunTime:0.000288s ]
+---------------------------------------------------------------
+[ 2018-07-12T20:56:44+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/login
+[ info ] www.jshop.com/admin/login/login [运行时间：0.063856s][吞吐率：15.66req/s] [内存消耗：1,774.51kb] [文件加载：53]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8812893184',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ D:\wamp\shop\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-12T20:56:44+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/__PUBLIC__/Styles/general.css
+[ info ] www.jshop.com/admin/login/__PUBLIC__/Styles/general.css [运行时间：0.141177s][吞吐率：7.08req/s] [内存消耗：1,652.05kb] [文件加载：53]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => '__PUBLIC__',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://www.jshop.com/admin/login/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8812893184',
+)
+[ info ] [ PARAM ] array (
+  'Styles' => 'general.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-12T20:56:44+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/__PUBLIC__/Images/login.png
+[ info ] www.jshop.com/admin/login/__PUBLIC__/Images/login.png [运行时间：0.142198s][吞吐率：7.03req/s] [内存消耗：1,652.10kb] [文件加载：53]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => '__PUBLIC__',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/login/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8812893184',
+)
+[ info ] [ PARAM ] array (
+  'Images' => 'login.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-12T20:56:44+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/__PUBLIC__/Styles/main.css
+[ info ] www.jshop.com/admin/login/__PUBLIC__/Styles/main.css [运行时间：0.146014s][吞吐率：6.85req/s] [内存消耗：1,651.95kb] [文件加载：53]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => '__PUBLIC__',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://www.jshop.com/admin/login/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8812893184',
+)
+[ info ] [ PARAM ] array (
+  'Styles' => 'main.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-12T21:01:00+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/login
+[ info ] www.jshop.com/admin/login/login [运行时间：0.060399s][吞吐率：16.56req/s] [内存消耗：1,775.55kb] [文件加载：53]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=8812893184',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ D:\wamp\shop\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File

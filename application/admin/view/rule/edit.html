@@ -1,0 +1,47 @@
+<{extend name="public/base" /}>
+<{block name="body"}>
+    <form action="" method="post" name="theForm" enctype="multipart/form-data">
+        <table width="100%" id="general-table">
+            <tr>
+                <td class="label">权限名称:</td>
+                <td>
+                    <input type='text' name='rule_name'  value="<{$data.rule_name}>" />
+                </td>
+            </tr>
+            <tr>
+                <td class="label">控制器名称:</td>
+                <td>
+                    <input type='text' value="<{$data.controller_name}>" name='controller_name'  />
+                </td>
+            </tr>
+            <tr>
+                <td class="label">操作名称:</td>
+                <td>
+                    <input type='text' name='action_name' value="<{$data.action_name}>" />
+                </td>
+            </tr>
+            <tr>
+                <td class="label">是否导航显示:</td>
+                <td>
+                    <input type='radio' <{eq name="data.is_show" value="1" }>checked="checked"<{/eq}> name='is_show' value="1"  />显示
+                    <input type='radio' <{eq name="data.is_show" value="0" }>checked="checked"<{/eq}> name='is_show' value="0"  />不显示
+                </td>
+            </tr>
+            <tr>
+                <td class="label">上级权限:</td>
+                <td>
+                    <select name="parent_id">
+                        <option value="0">顶级权限</option>
+                        <{volist name="rule" id="vo"}>
+                        <option value="<{$vo.id}>" <{eq name="data.parent_id" value="$vo.id" }>selected="selected"<{/eq}>><{$vo.lv|str_repeat='&nbsp;',###}><{$vo.rule_name}></option>
+                        <{/volist}>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <div class="button-div">
+            <input type="submit" value=" 确定 " />
+            <input type="reset" value=" 重置 " />
+        </div>
+    </form>
+<{/block}>

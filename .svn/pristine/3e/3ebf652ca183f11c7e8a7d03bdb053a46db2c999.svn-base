@@ -1,0 +1,20 @@
+<?php
+//function_exists用来判断这个函数是否存在，不存在则执行
+if(!function_exists('upload_img_to_cdn')){
+	/**
+	 * 转义文件到资源服务器
+	 * @param  string $image   要转资源的本地地址
+	 * @param  string $newpath 上传到资源服务器上的目录(不带家地址)
+	 * @return bollean
+	 */
+	function upload_img_to_cdn($image,$newpath=''){
+		include_once '../extend/ftp.php';
+		//读取配置
+		$config = config('cdn');
+		/*$ftp = new \ftp($config['host'],$config['port'],$config['user'],$config['pass']);*/
+		$ftp = new \ftp($config['host'],$config['port'],$config['user'],$config['pass']);
+		$newpath = $newpath?$newpath:$image;
+		return $ftp -> up_file($image,$newpath);
+	}
+}
+

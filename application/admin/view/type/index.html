@@ -1,0 +1,22 @@
+<{extend name="public:base"/}>
+<{block name="body"}>
+ <div class="list-div" id="listDiv">
+        <table width="100%" cellspacing="1" cellpadding="2" id="list-table" style="display: block;">
+            <tr>
+                <th align="left">类型名称</th>
+                <th>操作</th>
+            </tr>
+            <{volist name="list" id="v"}>
+	            <tr align="center" class="0">
+	                <td align="left" class="first-cell" >
+	                    <{$v.type_name}>
+	                </td>
+	                <td width="30%" align="center">
+	                <a href="<{:url('edit','id='.$v['id'])}>">编辑</a> |
+	                <a href="<{:url('del','id='.$v['id'])}>" title="移除" onclick="">移除</a>
+	                </td>
+	            </tr>
+            <{/volist}>
+        </table>
+    </div>
+<{/block}>

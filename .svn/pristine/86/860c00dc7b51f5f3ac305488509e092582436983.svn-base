@@ -1,0 +1,42 @@
+<?php
+namespace app\admin\controller;
+use app\admin\model;
+class Goods extends Common{
+	//显示添加页面
+	public function add(){
+		if($this->request->isGET()){
+			$cate = model('Category');
+			$data = $cate -> getCate();
+			$this -> assign('data',$data);
+			return $this -> fetch();
+		}
+		$goods = model('Goods');
+		$result = $goods -> goodsAdd();
+		//var_dump($result);exit;
+		if($result === false){
+			$this -> error($goods -> getError());
+		}else{
+			$this -> success('成功添加','add');
+		}
+	}
+	//显示类别页面
+	public function show(){
+		$model = model('goods');
+		$result = $model -> getList();
+		if($result === false){
+			$this -> error($model -> getError());
+			return false;
+		}
+		//var_dump($result);exit;
+		$model = model('Category');
+		$cate = $model -> getCate();
+		$this -> assign('cate',$cate);
+		$this -> assign('list',$result);
+		return $this -> fetch();
+	}
+
+}
+
+
+
+ ?>

@@ -1,0 +1,30 @@
+<?php
+namespace app\admin\model;
+use think\Model;
+class Admin extends Model{
+	public function verify(){
+		/*//检查验证码
+		$obj = new \think\captcha\Captcha();
+		if(!$obj -> check(input('captcha'))){
+			$this -> error = '验证码错误' ;
+			return false;
+		}*/
+		$username = input('username');
+		$password = md5(input('password'));
+		$userInfo = Admin::get(['userName'=>$username,'passWord'=>$password]);
+		//var_dump($userInfo);exit;
+		if(!$userInfo){
+			$this -> error = '数据错误';
+			return false;
+		}
+//var_dump($userInfo->getAttr('id'));exit;
+		session('_user',$userInfo->getAttr('id'));
+
+	}
+}
+
+
+
+
+
+ ?>

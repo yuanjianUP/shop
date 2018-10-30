@@ -1,0 +1,4314 @@
+---------------------------------------------------------------
+[ 2018-07-15T00:04:37+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/edit/id/2.html
+[ info ] www.jshop.com/admin/category/edit/id/2.html [运行时间：0.086959s][吞吐率：11.50req/s] [内存消耗：2,733.54kb] [文件加载：60]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/category/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=tj2t4sksofcrblov3n7ao0sq5q',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Category->edit[ D:\wamp\shop\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\category\edit.html [ array (
+  0 => 'info',
+  1 => 'cate',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000977s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.021586s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` <> 0 [ RunTime:0.000189s ]
+---------------------------------------------------------------
+[ 2018-07-15T00:12:46+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/edit/id/2.html
+[ info ] www.jshop.com/admin/category/edit/id/2.html [运行时间：0.138303s][吞吐率：7.23req/s] [内存消耗：2,734.12kb] [文件加载：60]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/category/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=tj2t4sksofcrblov3n7ao0sq5q',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Category->edit[ D:\wamp\shop\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\category\edit.html [ array (
+  0 => 'info',
+  1 => 'cate',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000988s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.062378s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` <> 0 [ RunTime:0.000211s ]
+---------------------------------------------------------------
+[ 2018-07-15T00:12:48+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/edit/id/2.html
+[ info ] www.jshop.com/admin/category/edit/id/2.html [运行时间：0.087662s][吞吐率：11.41req/s] [内存消耗：2,599.96kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/category/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=tj2t4sksofcrblov3n7ao0sq5q',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Category->edit[ D:\wamp\shop\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\category\edit.html [ array (
+  0 => 'info',
+  1 => 'cate',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000886s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.046930s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` <> 0 [ RunTime:0.000237s ]
+---------------------------------------------------------------
+[ 2018-07-15T00:12:53+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/index
+[ info ] www.jshop.com/admin/category/index [运行时间：0.163969s][吞吐率：6.10req/s] [内存消耗：2,650.63kb] [文件加载：59]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=tj2t4sksofcrblov3n7ao0sq5q',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\wamp\shop\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\category\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001759s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.125680s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` <> 0 [ RunTime:0.000235s ]
+---------------------------------------------------------------
+[ 2018-07-15T00:12:55+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/edit/id/4.html
+[ info ] www.jshop.com/admin/category/edit/id/4.html [运行时间：0.062260s][吞吐率：16.06req/s] [内存消耗：2,599.63kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/category/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=tj2t4sksofcrblov3n7ao0sq5q',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Category->edit[ D:\wamp\shop\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\category\edit.html [ array (
+  0 => 'info',
+  1 => 'cate',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001010s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.027312s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000530s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` <> 0 [ RunTime:0.000268s ]
+---------------------------------------------------------------
+[ 2018-07-15T00:29:01+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/index
+[ info ] www.jshop.com/admin/category/index [运行时间：0.111161s][吞吐率：9.00req/s] [内存消耗：2,651.28kb] [文件加载：59]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=tj2t4sksofcrblov3n7ao0sq5q',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\wamp\shop\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\category\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000934s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.062109s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` <> 0 [ RunTime:0.000254s ]
+---------------------------------------------------------------
+[ 2018-07-15T00:29:02+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/index
+[ info ] www.jshop.com/admin/category/index [运行时间：0.169917s][吞吐率：5.89req/s] [内存消耗：2,651.70kb] [文件加载：59]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=tj2t4sksofcrblov3n7ao0sq5q',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\wamp\shop\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\category\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000771s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.134153s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` <> 0 [ RunTime:0.000264s ]
+---------------------------------------------------------------
+[ 2018-07-15T00:29:06+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/edit/id/2.html
+[ info ] www.jshop.com/admin/category/edit/id/2.html [运行时间：0.084430s][吞吐率：11.84req/s] [内存消耗：2,733.41kb] [文件加载：60]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/category/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=tj2t4sksofcrblov3n7ao0sq5q',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Category->edit[ D:\wamp\shop\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\category\edit.html [ array (
+  0 => 'info',
+  1 => 'cate',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000851s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.018855s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000451s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` <> 0 [ RunTime:0.000483s ]
+---------------------------------------------------------------
+[ 2018-07-15T00:29:10+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/index
+[ info ] www.jshop.com/admin/category/index [运行时间：0.105803s][吞吐率：9.45req/s] [内存消耗：2,651.28kb] [文件加载：59]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=tj2t4sksofcrblov3n7ao0sq5q',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\wamp\shop\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\category\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000757s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.065365s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` <> 0 [ RunTime:0.000268s ]
+---------------------------------------------------------------
+[ 2018-07-15T00:29:16+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/edit/id/2.html
+[ info ] www.jshop.com/admin/category/edit/id/2.html [运行时间：0.063497s][吞吐率：15.75req/s] [内存消耗：2,599.76kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/category/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=tj2t4sksofcrblov3n7ao0sq5q',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Category->edit[ D:\wamp\shop\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\category\edit.html [ array (
+  0 => 'info',
+  1 => 'cate',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000691s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.025573s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` <> 0 [ RunTime:0.000236s ]
+---------------------------------------------------------------
+[ 2018-07-15T00:29:19+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/index
+[ info ] www.jshop.com/admin/category/index [运行时间：0.060217s][吞吐率：16.61req/s] [内存消耗：2,651.28kb] [文件加载：59]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=tj2t4sksofcrblov3n7ao0sq5q',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\wamp\shop\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\category\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000704s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.022059s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` <> 0 [ RunTime:0.000179s ]
+---------------------------------------------------------------
+[ 2018-07-15T00:29:24+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/edit/id/2.html
+[ info ] www.jshop.com/admin/category/edit/id/2.html [运行时间：0.085976s][吞吐率：11.63req/s] [内存消耗：2,599.76kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/category/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=tj2t4sksofcrblov3n7ao0sq5q',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Category->edit[ D:\wamp\shop\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\category\edit.html [ array (
+  0 => 'info',
+  1 => 'cate',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000693s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.035467s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` <> 0 [ RunTime:0.000236s ]
+---------------------------------------------------------------
+[ 2018-07-15T09:26:37+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/goods/add
+[ info ] www.jshop.com/admin/goods/add [运行时间：0.741956s][吞吐率：1.35req/s] [内存消耗：1,704.27kb] [文件加载：53]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\wamp\shop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-15T09:26:41+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/login.html
+[ info ] www.jshop.com/admin/login/login.html [运行时间：0.107957s][吞吐率：9.26req/s] [内存消耗：1,835.64kb] [文件加载：53]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/goods/add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=k96ofko21nlvkrj8b9976ab015',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ D:\wamp\shop\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-15T09:26:41+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/captcha.html
+[ info ] www.jshop.com/admin/login/captcha.html [运行时间：0.095463s][吞吐率：10.48req/s] [内存消耗：1,650.09kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'captcha',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=k96ofko21nlvkrj8b9976ab015',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->captcha[ D:\wamp\shop\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-15T09:29:36+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/login.html
+[ info ] www.jshop.com/admin/login/login.html [运行时间：0.033939s][吞吐率：29.46req/s] [内存消耗：1,702.38kb] [文件加载：51]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/goods/add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=k96ofko21nlvkrj8b9976ab015',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ D:\wamp\shop\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-15T09:29:36+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/captcha.html
+[ info ] www.jshop.com/admin/login/captcha.html [运行时间：0.099532s][吞吐率：10.05req/s] [内存消耗：1,650.98kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'captcha',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=k96ofko21nlvkrj8b9976ab015',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->captcha[ D:\wamp\shop\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-15T09:29:40+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/login/login.html
+[ info ] www.jshop.com/admin/login/login.html [运行时间：0.180394s][吞吐率：5.54req/s] [内存消耗：2,643.95kb] [文件加载：59]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '47',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.jshop.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=k96ofko21nlvkrj8b9976ab015',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123',
+  'captcha' => '',
+  'act' => 'signin',
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ D:\wamp\shop\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\wamp\shop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004389s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.075624s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `userName` = 'admin'  AND `passWord` = '202cb962ac59075b964b07152d234b70' LIMIT 1 [ RunTime:0.000375s ]
+---------------------------------------------------------------
+[ 2018-07-15T09:29:43+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] www.jshop.com/admin/index/index.html [运行时间：0.086034s][吞吐率：11.62req/s] [内存消耗：1,706.03kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=k96ofko21nlvkrj8b9976ab015',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\wamp\shop\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\index\index.html [ array (
+  0 => 'top',
+  1 => 'menu',
+  2 => 'main',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-15T09:29:43+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/top.html
+[ info ] www.jshop.com/admin/index/top.html [运行时间：0.063232s][吞吐率：15.81req/s] [内存消耗：1,648.78kb] [文件加载：51]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'top',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=k96ofko21nlvkrj8b9976ab015',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->top[ D:\wamp\shop\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\index\top.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-15T09:29:43+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/menu.html
+[ info ] www.jshop.com/admin/index/menu.html [运行时间：0.163568s][吞吐率：6.11req/s] [内存消耗：1,648.80kb] [文件加载：51]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'menu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=k96ofko21nlvkrj8b9976ab015',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->menu[ D:\wamp\shop\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\index\menu.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-15T09:29:43+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/main.html
+[ info ] www.jshop.com/admin/index/main.html [运行时间：0.196893s][吞吐率：5.08req/s] [内存消耗：1,648.80kb] [文件加载：51]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=k96ofko21nlvkrj8b9976ab015',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->main[ D:\wamp\shop\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-15T09:29:44+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/Js/global.js
+[ info ] www.jshop.com/admin/index/Js/global.js [运行时间：0.217497s][吞吐率：4.60req/s] [内存消耗：1,656.95kb] [文件加载：53]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.jshop.com/admin/index/menu.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=k96ofko21nlvkrj8b9976ab015',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-15T09:29:44+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/Js/transport.js
+[ info ] www.jshop.com/admin/index/Js/transport.js [运行时间：0.202156s][吞吐率：4.95req/s] [内存消耗：1,656.99kb] [文件加载：53]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.jshop.com/admin/index/menu.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=k96ofko21nlvkrj8b9976ab015',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-15T09:29:44+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/Js/utils.js
+[ info ] www.jshop.com/admin/index/Js/utils.js [运行时间：0.217796s][吞吐率：4.59req/s] [内存消耗：1,656.95kb] [文件加载：53]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.jshop.com/admin/index/menu.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=k96ofko21nlvkrj8b9976ab015',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-15T09:29:44+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/Js/transport.js
+[ info ] www.jshop.com/admin/index/Js/transport.js [运行时间：0.028454s][吞吐率：35.14req/s] [内存消耗：1,656.99kb] [文件加载：53]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.jshop.com/admin/index/menu.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=k96ofko21nlvkrj8b9976ab015',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-15T09:29:55+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/goods/add
+[ info ] www.jshop.com/admin/goods/add [运行时间：0.035552s][吞吐率：28.13req/s] [内存消耗：1,659.55kb] [文件加载：53]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=k96ofko21nlvkrj8b9976ab015',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\wamp\shop\application\admin\controller\Goods.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected '->' (T_OBJECT_OPERATOR)[D:\wamp\shop\application\admin\model\Category.php:42]
+---------------------------------------------------------------
+[ 2018-07-15T09:33:10+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/goods/add
+[ info ] www.jshop.com/admin/goods/add [运行时间：0.038762s][吞吐率：25.80req/s] [内存消耗：1,660.03kb] [文件加载：53]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=k96ofko21nlvkrj8b9976ab015',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\wamp\shop\application\admin\controller\Goods.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'[D:\wamp\shop\application\admin\model\Category.php:42]
+---------------------------------------------------------------
+[ 2018-07-15T09:33:37+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/goods/add
+[ info ] www.jshop.com/admin/goods/add [运行时间：0.159707s][吞吐率：6.26req/s] [内存消耗：2,590.09kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=k96ofko21nlvkrj8b9976ab015',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\wamp\shop\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\goods\add.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.076106s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` <> 0 [ RunTime:0.000432s ]
+---------------------------------------------------------------
+[ 2018-07-15T09:34:23+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/categroy/index
+[ info ] www.jshop.com/admin/categroy/index [运行时间：0.227110s][吞吐率：4.40req/s] [内存消耗：1,414.85kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'categroy',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=k96ofko21nlvkrj8b9976ab015',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-15T09:34:28+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/categroy/add
+[ info ] www.jshop.com/admin/categroy/add [运行时间：0.028690s][吞吐率：34.86req/s] [内存消耗：1,415.09kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'categroy',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=k96ofko21nlvkrj8b9976ab015',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-15T09:34:49+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/add
+[ info ] www.jshop.com/admin/category/add [运行时间：0.104288s][吞吐率：9.59req/s] [内存消耗：2,788.76kb] [文件加载：61]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=k96ofko21nlvkrj8b9976ab015',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Category->add[ D:\wamp\shop\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\category\add.html [ array (
+  0 => 'cateDate',
+  1 => 'insert',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000640s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.033415s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` <> 0 [ RunTime:0.000274s ]
+---------------------------------------------------------------
+[ 2018-07-15T09:35:03+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/edit/id/2.html
+[ info ] www.jshop.com/admin/category/edit/id/2.html [运行时间：0.117836s][吞吐率：8.49req/s] [内存消耗：2,602.48kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=k96ofko21nlvkrj8b9976ab015',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Category->edit[ D:\wamp\shop\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\category\edit.html [ array (
+  0 => 'info',
+  1 => 'cate',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000599s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.043518s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000356s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` <> 0 [ RunTime:0.000226s ]
+---------------------------------------------------------------
+[ 2018-07-15T09:35:09+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/edit
+[ info ] www.jshop.com/admin/category/edit [运行时间：0.109429s][吞吐率：9.14req/s] [内存消耗：2,598.01kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=k96ofko21nlvkrj8b9976ab015',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Category->edit[ D:\wamp\shop\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\category\edit.html [ array (
+  0 => 'info',
+  1 => 'cate',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000578s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.073565s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` <> 0 [ RunTime:0.000266s ]
+---------------------------------------------------------------
+[ 2018-07-15T09:35:19+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/index
+[ info ] www.jshop.com/admin/category/index [运行时间：0.131076s][吞吐率：7.63req/s] [内存消耗：2,654.59kb] [文件加载：59]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=k96ofko21nlvkrj8b9976ab015',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\wamp\shop\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\category\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000527s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.046937s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` <> 0 [ RunTime:0.000250s ]
+---------------------------------------------------------------
+[ 2018-07-15T09:35:24+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/edit/id/2.html
+[ info ] www.jshop.com/admin/category/edit/id/2.html [运行时间：0.105608s][吞吐率：9.47req/s] [内存消耗：2,603.06kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/category/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=k96ofko21nlvkrj8b9976ab015',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Category->edit[ D:\wamp\shop\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\category\edit.html [ array (
+  0 => 'info',
+  1 => 'cate',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000585s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.074894s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` <> 0 [ RunTime:0.000202s ]
+---------------------------------------------------------------
+[ 2018-07-15T09:35:42+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/category/edit/id/2.html
+[ info ] www.jshop.com/admin/category/edit/id/2.html [运行时间：0.115325s][吞吐率：8.67req/s] [内存消耗：1,671.50kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '332',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.jshop.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryp6LH4jB2HCMWs76C',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/category/edit/id/2.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=k96ofko21nlvkrj8b9976ab015',
+)
+[ info ] [ PARAM ] array (
+  'cname' => '电脑',
+  'parent_id' => '1',
+  'isrec' => '1',
+  'id' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Category->edit[ D:\wamp\shop\application\admin\controller\Category.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: model[D:\wamp\shop\application\admin\controller\Category.php:23]
+---------------------------------------------------------------
+[ 2018-07-15T09:36:11+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/category/edit/id/2.html
+[ info ] www.jshop.com/admin/category/edit/id/2.html [运行时间：0.034380s][吞吐率：29.09req/s] [内存消耗：2,546.20kb] [文件加载：60]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '332',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'origin' => 'http://www.jshop.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryp6LH4jB2HCMWs76C',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/category/edit/id/2.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=k96ofko21nlvkrj8b9976ab015',
+)
+[ info ] [ PARAM ] array (
+  'cname' => '电脑',
+  'parent_id' => '1',
+  'isrec' => '1',
+  'id' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Category->edit[ D:\wamp\shop\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]method not exist:think\db\Query->updataCate[D:\wamp\shop\thinkphp\library\think\db\Query.php:94]
+---------------------------------------------------------------
+[ 2018-07-15T09:37:24+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/category/edit/id/2.html
+[ info ] www.jshop.com/admin/category/edit/id/2.html [运行时间：0.245977s][吞吐率：4.07req/s] [内存消耗：2,622.78kb] [文件加载：64]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '332',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'origin' => 'http://www.jshop.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryp6LH4jB2HCMWs76C',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/category/edit/id/2.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=k96ofko21nlvkrj8b9976ab015',
+)
+[ info ] [ PARAM ] array (
+  'cname' => '电脑',
+  'parent_id' => '1',
+  'isrec' => '1',
+  'id' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Category->edit[ D:\wamp\shop\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000667s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.019355s ]
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'parent_id' cannot be null[D:\wamp\shop\thinkphp\library\think\db\Connection.php:451]
+---------------------------------------------------------------
+[ 2018-07-15T09:39:25+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/edit
+[ info ] www.jshop.com/admin/category/edit [运行时间：0.081737s][吞吐率：12.23req/s] [内存消耗：2,597.68kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=k96ofko21nlvkrj8b9976ab015',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Category->edit[ D:\wamp\shop\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\category\edit.html [ array (
+  0 => 'info',
+  1 => 'cate',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000710s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.040923s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` <> 0 [ RunTime:0.000268s ]
+---------------------------------------------------------------
+[ 2018-07-15T09:39:53+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/edit
+[ info ] www.jshop.com/admin/category/edit [运行时间：0.057792s][吞吐率：17.30req/s] [内存消耗：2,598.38kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=k96ofko21nlvkrj8b9976ab015',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Category->edit[ D:\wamp\shop\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\category\edit.html [ array (
+  0 => 'info',
+  1 => 'cate',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000609s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.018082s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` <> 0 [ RunTime:0.000295s ]
+---------------------------------------------------------------
+[ 2018-07-15T09:39:59+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/index
+[ info ] www.jshop.com/admin/category/index [运行时间：0.080147s][吞吐率：12.48req/s] [内存消耗：2,654.54kb] [文件加载：59]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=k96ofko21nlvkrj8b9976ab015',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\wamp\shop\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\category\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000856s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.023304s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` <> 0 [ RunTime:0.000267s ]
+---------------------------------------------------------------
+[ 2018-07-15T09:40:00+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/index
+[ info ] www.jshop.com/admin/category/index [运行时间：0.103267s][吞吐率：9.68req/s] [内存消耗：2,654.54kb] [文件加载：59]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=k96ofko21nlvkrj8b9976ab015',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\wamp\shop\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\category\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000509s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.070451s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` <> 0 [ RunTime:0.000263s ]
+---------------------------------------------------------------
+[ 2018-07-15T09:40:01+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/edit/id/1.html
+[ info ] www.jshop.com/admin/category/edit/id/1.html [运行时间：0.050096s][吞吐率：19.96req/s] [内存消耗：2,603.28kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/category/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=k96ofko21nlvkrj8b9976ab015',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Category->edit[ D:\wamp\shop\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\category\edit.html [ array (
+  0 => 'info',
+  1 => 'cate',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000608s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.016999s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000354s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` <> 0 [ RunTime:0.000306s ]
+---------------------------------------------------------------
+[ 2018-07-15T09:40:07+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/category/edit/id/1.html
+[ info ] www.jshop.com/admin/category/edit/id/1.html [运行时间：0.066149s][吞吐率：15.12req/s] [内存消耗：2,549.34kb] [文件加载：60]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '332',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.jshop.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryjibHzBc9m9eUW20w',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/category/edit/id/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=k96ofko21nlvkrj8b9976ab015',
+)
+[ info ] [ PARAM ] array (
+  'cname' => '手机',
+  'parent_id' => '2',
+  'isrec' => '1',
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Category->edit[ D:\wamp\shop\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]类型错误: Too few arguments to function app\admin\model\Category::edit(), 0 passed in D:\wamp\shop\application\admin\controller\Category.php on line 23 and exactly 2 expected[D:\wamp\shop\application\admin\model\Category.php:41]
+---------------------------------------------------------------
+[ 2018-07-15T09:40:30+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/category/edit/id/1.html
+[ info ] www.jshop.com/admin/category/edit/id/1.html [运行时间：0.104019s][吞吐率：9.61req/s] [内存消耗：2,620.25kb] [文件加载：62]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '332',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.jshop.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryjibHzBc9m9eUW20w',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/category/edit/id/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=k96ofko21nlvkrj8b9976ab015',
+)
+[ info ] [ PARAM ] array (
+  'cname' => '手机',
+  'parent_id' => '2',
+  'isrec' => '1',
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Category->edit[ D:\wamp\shop\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000589s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.017493s ]
+[ sql ] [ SQL ] UPDATE `shop_category`  SET `parent_id`=2  WHERE  `id` = 1 [ RunTime:0.045561s ]
+[ error ] [0]致命错误: Call to undefined function app\admin\controller\success()[D:\wamp\shop\application\admin\controller\Category.php:28]
+---------------------------------------------------------------
+[ 2018-07-15T09:40:51+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/category/edit/id/1.html
+[ info ] www.jshop.com/admin/category/edit/id/1.html [运行时间：0.101902s][吞吐率：9.81req/s] [内存消耗：2,607.98kb] [文件加载：61]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '332',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.jshop.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryjibHzBc9m9eUW20w',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/category/edit/id/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=k96ofko21nlvkrj8b9976ab015',
+)
+[ info ] [ PARAM ] array (
+  'cname' => '手机',
+  'parent_id' => '2',
+  'isrec' => '1',
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Category->edit[ D:\wamp\shop\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wamp\shop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000568s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.017766s ]
+[ sql ] [ SQL ] UPDATE `shop_category`  SET `parent_id`=2  WHERE  `id` = 1 [ RunTime:0.051005s ]
+---------------------------------------------------------------
+[ 2018-07-15T09:41:09+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/index
+[ info ] www.jshop.com/admin/category/index [运行时间：0.126179s][吞吐率：7.93req/s] [内存消耗：2,654.34kb] [文件加载：59]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=k96ofko21nlvkrj8b9976ab015',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\wamp\shop\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\category\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000537s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.089268s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` <> 0 [ RunTime:0.000594s ]
+---------------------------------------------------------------
+[ 2018-07-15T09:41:11+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/edit/id/1.html
+[ info ] www.jshop.com/admin/category/edit/id/1.html [运行时间：0.110885s][吞吐率：9.02req/s] [内存消耗：2,603.35kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/category/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=k96ofko21nlvkrj8b9976ab015',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Category->edit[ D:\wamp\shop\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\category\edit.html [ array (
+  0 => 'info',
+  1 => 'cate',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000599s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.072852s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` <> 0 [ RunTime:0.000222s ]
+---------------------------------------------------------------
+[ 2018-07-15T09:41:33+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/category/edit/id/1.html
+[ info ] www.jshop.com/admin/category/edit/id/1.html [运行时间：0.165187s][吞吐率：6.05req/s] [内存消耗：2,664.64kb] [文件加载：62]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '332',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.jshop.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryscqTA4b5oIIRYfMq',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/category/edit/id/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=k96ofko21nlvkrj8b9976ab015',
+)
+[ info ] [ PARAM ] array (
+  'cname' => '手机',
+  'parent_id' => '0',
+  'isrec' => '1',
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Category->edit[ D:\wamp\shop\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wamp\shop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000601s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.050662s ]
+[ sql ] [ SQL ] UPDATE `shop_category`  SET `parent_id`=0  WHERE  `id` = 1 [ RunTime:0.073904s ]
+---------------------------------------------------------------
+[ 2018-07-15T09:41:34+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/index.html
+[ info ] www.jshop.com/admin/category/index.html [运行时间：0.054796s][吞吐率：18.25req/s] [内存消耗：2,655.05kb] [文件加载：59]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/category/edit/id/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=k96ofko21nlvkrj8b9976ab015',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\wamp\shop\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\category\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000574s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.018106s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` <> 0 [ RunTime:0.000360s ]
+---------------------------------------------------------------
+[ 2018-07-15T09:41:36+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/edit/id/2.html
+[ info ] www.jshop.com/admin/category/edit/id/2.html [运行时间：0.053268s][吞吐率：18.77req/s] [内存消耗：2,602.82kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=k96ofko21nlvkrj8b9976ab015',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Category->edit[ D:\wamp\shop\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\category\edit.html [ array (
+  0 => 'info',
+  1 => 'cate',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000561s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.016430s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` <> 0 [ RunTime:0.000169s ]
+---------------------------------------------------------------
+[ 2018-07-15T09:41:42+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/category/edit/id/2.html
+[ info ] www.jshop.com/admin/category/edit/id/2.html [运行时间：0.129928s][吞吐率：7.70req/s] [内存消耗：2,664.64kb] [文件加载：62]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '332',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.jshop.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryo0D2m0TttW1aWRaV',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/category/edit/id/2.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=k96ofko21nlvkrj8b9976ab015',
+)
+[ info ] [ PARAM ] array (
+  'cname' => '电脑',
+  'parent_id' => '1',
+  'isrec' => '1',
+  'id' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Category->edit[ D:\wamp\shop\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wamp\shop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010878s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.043030s ]
+[ sql ] [ SQL ] UPDATE `shop_category`  SET `parent_id`=1  WHERE  `id` = 2 [ RunTime:0.043630s ]
+---------------------------------------------------------------
+[ 2018-07-15T09:41:43+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/index.html
+[ info ] www.jshop.com/admin/category/index.html [运行时间：0.054149s][吞吐率：18.47req/s] [内存消耗：2,655.05kb] [文件加载：59]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/category/edit/id/2.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=k96ofko21nlvkrj8b9976ab015',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\wamp\shop\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\category\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000563s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.016848s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` <> 0 [ RunTime:0.000438s ]
+---------------------------------------------------------------
+[ 2018-07-15T18:25:47+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/goods/add
+[ info ] www.jshop.com/admin/goods/add [运行时间：0.114024s][吞吐率：8.77req/s] [内存消耗：2,590.20kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=k96ofko21nlvkrj8b9976ab015',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\wamp\shop\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\goods\add.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000986s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.067410s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` <> 0 [ RunTime:0.000291s ]
+---------------------------------------------------------------
+[ 2018-07-15T18:27:01+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/goods/add
+[ info ] www.jshop.com/admin/goods/add [运行时间：0.156351s][吞吐率：6.40req/s] [内存消耗：2,659.80kb] [文件加载：64]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '35881',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.jshop.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary3pzMv2CUMwZUtMkd',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/goods/add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=k96ofko21nlvkrj8b9976ab015',
+)
+[ info ] [ PARAM ] array (
+  'goods_name' => 'x20',
+  'goods_sn' => '',
+  'cate_id' => '1',
+  'shop_price' => '6000',
+  'is_sale' => '1',
+  'market_price' => '5000',
+  'goods_body' => 'make more time',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\wamp\shop\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant Ymd - assumed 'Ymd'[D:\wamp\shop\application\admin\model\Goods.php:33]
+---------------------------------------------------------------
+[ 2018-07-15T18:27:26+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/goods/add
+[ info ] www.jshop.com/admin/goods/add [运行时间：0.276107s][吞吐率：3.62req/s] [内存消耗：2,737.81kb] [文件加载：63]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '35881',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.jshop.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary3pzMv2CUMwZUtMkd',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/goods/add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=k96ofko21nlvkrj8b9976ab015',
+)
+[ info ] [ PARAM ] array (
+  'goods_name' => 'x20',
+  'goods_sn' => '',
+  'cate_id' => '1',
+  'shop_price' => '6000',
+  'is_sale' => '1',
+  'market_price' => '5000',
+  'goods_body' => 'make more time',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\wamp\shop\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\shop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000619s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.024176s ]
+[ sql ] [ SQL ] INSERT INTO `shop_goods` (`goods_name` , `goods_sn` , `cate_id` , `shop_price` , `is_sale` , `market_price` , `goods_body` , `goods_img` , `addtime` , `goods_thumb`) VALUES ('x20' , '5b4b218eaa8f2' , 1 , 6000 , 1 , 5000 , 'make more time' , 'upload/20180715/5b4862ad5f2e3c9f66797636e6f859e8.png' , 1531650446 , 'upload/20180715/thumb_5b4862ad5f2e3c9f66797636e6f859e8.png') [ RunTime:0.101610s ]
+---------------------------------------------------------------
+[ 2018-07-15T18:27:28+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/goods/add.html
+[ info ] www.jshop.com/admin/goods/add.html [运行时间：0.074272s][吞吐率：13.46req/s] [内存消耗：2,590.77kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/goods/add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=k96ofko21nlvkrj8b9976ab015',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\wamp\shop\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\goods\add.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000591s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.037431s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` <> 0 [ RunTime:0.000215s ]
+---------------------------------------------------------------
+[ 2018-07-15T18:53:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/goods/add
+[ info ] www.jshop.com/admin/goods/add [运行时间：0.049262s][吞吐率：20.30req/s] [内存消耗：1,704.27kb] [文件加载：53]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\wamp\shop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-15T18:53:45+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/login.html
+[ info ] www.jshop.com/admin/login/login.html [运行时间：0.042979s][吞吐率：23.27req/s] [内存消耗：1,702.05kb] [文件加载：51]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/goods/add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qtj9mv24d8msm0m1426p0ppnro',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ D:\wamp\shop\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-15T18:53:45+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/captcha.html
+[ info ] www.jshop.com/admin/login/captcha.html [运行时间：0.067887s][吞吐率：14.73req/s] [内存消耗：1,650.09kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'captcha',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qtj9mv24d8msm0m1426p0ppnro',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->captcha[ D:\wamp\shop\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-15T18:53:50+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/login/login.html
+[ info ] www.jshop.com/admin/login/login.html [运行时间：0.095440s][吞吐率：10.48req/s] [内存消耗：2,643.95kb] [文件加载：59]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '47',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.jshop.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qtj9mv24d8msm0m1426p0ppnro',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123',
+  'captcha' => '',
+  'act' => 'signin',
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ D:\wamp\shop\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\wamp\shop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001036s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.058177s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `userName` = 'admin'  AND `passWord` = '202cb962ac59075b964b07152d234b70' LIMIT 1 [ RunTime:0.000279s ]
+---------------------------------------------------------------
+[ 2018-07-15T18:53:53+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] www.jshop.com/admin/index/index.html [运行时间：0.028310s][吞吐率：35.32req/s] [内存消耗：1,706.03kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qtj9mv24d8msm0m1426p0ppnro',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\wamp\shop\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\index\index.html [ array (
+  0 => 'top',
+  1 => 'menu',
+  2 => 'main',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-15T18:53:53+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/top.html
+[ info ] www.jshop.com/admin/index/top.html [运行时间：0.030610s][吞吐率：32.67req/s] [内存消耗：1,648.78kb] [文件加载：51]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'top',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qtj9mv24d8msm0m1426p0ppnro',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->top[ D:\wamp\shop\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\index\top.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-15T18:53:53+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/menu.html
+[ info ] www.jshop.com/admin/index/menu.html [运行时间：0.069288s][吞吐率：14.43req/s] [内存消耗：1,648.80kb] [文件加载：51]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'menu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qtj9mv24d8msm0m1426p0ppnro',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->menu[ D:\wamp\shop\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\index\menu.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-15T18:53:53+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/main.html
+[ info ] www.jshop.com/admin/index/main.html [运行时间：0.121142s][吞吐率：8.25req/s] [内存消耗：1,648.80kb] [文件加载：51]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qtj9mv24d8msm0m1426p0ppnro',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->main[ D:\wamp\shop\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-15T18:53:53+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/Js/global.js
+[ info ] www.jshop.com/admin/index/Js/global.js [运行时间：0.044916s][吞吐率：22.26req/s] [内存消耗：1,656.95kb] [文件加载：53]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.jshop.com/admin/index/menu.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qtj9mv24d8msm0m1426p0ppnro',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-15T18:53:53+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/Js/utils.js
+[ info ] www.jshop.com/admin/index/Js/utils.js [运行时间：0.186702s][吞吐率：5.36req/s] [内存消耗：1,656.95kb] [文件加载：53]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.jshop.com/admin/index/menu.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qtj9mv24d8msm0m1426p0ppnro',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-15T18:53:53+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/Js/transport.js
+[ info ] www.jshop.com/admin/index/Js/transport.js [运行时间：0.208391s][吞吐率：4.80req/s] [内存消耗：1,656.99kb] [文件加载：53]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.jshop.com/admin/index/menu.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qtj9mv24d8msm0m1426p0ppnro',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-15T18:53:58+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/goods/add
+[ info ] www.jshop.com/admin/goods/add [运行时间：0.068621s][吞吐率：14.57req/s] [内存消耗：2,590.20kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qtj9mv24d8msm0m1426p0ppnro',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\wamp\shop\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\goods\add.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000695s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.023933s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` <> 0 [ RunTime:0.000204s ]
+---------------------------------------------------------------
+[ 2018-07-15T18:54:01+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/goods/add
+[ info ] www.jshop.com/admin/goods/add [运行时间：0.091078s][吞吐率：10.98req/s] [内存消耗：2,590.20kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qtj9mv24d8msm0m1426p0ppnro',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\wamp\shop\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\goods\add.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000642s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.054777s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` <> 0 [ RunTime:0.000265s ]
+---------------------------------------------------------------
+[ 2018-07-15T18:54:50+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/goods/add
+[ info ] www.jshop.com/admin/goods/add [运行时间：0.036536s][吞吐率：27.37req/s] [内存消耗：1,662.03kb] [文件加载：53]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '86069',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.jshop.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarysI9Oas0MlDziwLvH',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/goods/add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qtj9mv24d8msm0m1426p0ppnro',
+)
+[ info ] [ PARAM ] array (
+  'goods_name' => 'x9',
+  'goods_sn' => '',
+  'cate_id' => '1',
+  'shop_price' => '6000',
+  'is_sale' => '1',
+  'market_price' => '5000',
+  'goods_body' => '12',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\wamp\shop\application\admin\controller\Goods.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected 'return' (T_RETURN)[D:\wamp\shop\application\admin\model\Goods.php:22]
+---------------------------------------------------------------
+[ 2018-07-15T18:56:00+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/goods/add
+[ info ] www.jshop.com/admin/goods/add [运行时间：0.047136s][吞吐率：21.22req/s] [内存消耗：2,546.94kb] [文件加载：61]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '86069',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'origin' => 'http://www.jshop.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarysI9Oas0MlDziwLvH',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/goods/add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qtj9mv24d8msm0m1426p0ppnro',
+)
+[ info ] [ PARAM ] array (
+  'goods_name' => 'x9',
+  'goods_sn' => '',
+  'cate_id' => '1',
+  'shop_price' => '6000',
+  'is_sale' => '1',
+  'market_price' => '5000',
+  'goods_body' => '12',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\wamp\shop\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Cannot pass parameter 1 by reference[D:\wamp\shop\application\admin\model\Goods.php:21]
+---------------------------------------------------------------
+[ 2018-07-15T18:56:20+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/goods/add
+[ info ] www.jshop.com/admin/goods/add [运行时间：0.209599s][吞吐率：4.77req/s] [内存消耗：2,738.66kb] [文件加载：63]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '86069',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'origin' => 'http://www.jshop.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarysI9Oas0MlDziwLvH',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/goods/add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qtj9mv24d8msm0m1426p0ppnro',
+)
+[ info ] [ PARAM ] array (
+  'goods_name' => 'x9',
+  'goods_sn' => '',
+  'cate_id' => '1',
+  'shop_price' => '6000',
+  'is_sale' => '1',
+  'market_price' => '5000',
+  'goods_body' => '12',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\wamp\shop\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\shop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000661s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.023293s ]
+[ sql ] [ SQL ] INSERT INTO `shop_goods` (`goods_name` , `goods_sn` , `cate_id` , `shop_price` , `is_sale` , `market_price` , `goods_body` , `goods_img` , `goods_thumb` , `addtime`) VALUES ('x9' , '5b4b285429ab6' , 1 , 6000 , 1 , 5000 , '12' , 'upload/20180715/7b73e012954e3674c75e7e0e03668307.png' , 'upload/20180715/thumb_7b73e012954e3674c75e7e0e03668307.png' , 1531652180) [ RunTime:0.065477s ]
+---------------------------------------------------------------
+[ 2018-07-15T18:56:23+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/goods/add.html
+[ info ] www.jshop.com/admin/goods/add.html [运行时间：0.064103s][吞吐率：15.60req/s] [内存消耗：2,590.77kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/goods/add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qtj9mv24d8msm0m1426p0ppnro',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\wamp\shop\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\goods\add.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000623s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.018559s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` <> 0 [ RunTime:0.000302s ]
+---------------------------------------------------------------
+[ 2018-07-15T14:39:57+00:00 ] 127.0.0.1 127.0.0.1 GET /admin/goods/add.html
+[ info ] www.jshop.com/admin/goods/add.html [运行时间：3.916233s][吞吐率：0.26req/s] [内存消耗：1,265.18kb] [文件加载：32]
+[ error ] [0]Parse error: syntax error, unexpected '=', expecting ']'[D:\wamp\shop\application\config.php:16]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-15T15:21:44+00:00 ] 127.0.0.1 127.0.0.1 GET /admin/goods/add.html
+[ info ] www.jshop.com/admin/goods/add.html [运行时间：0.253566s][吞吐率：3.94req/s] [内存消耗：1,351.08kb] [文件加载：41]
+[ error ] [0]Parse error: syntax error, unexpected 'exists' (T_STRING), expecting '('[D:\wamp\shop\application\common.php:2]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-15T23:23:13+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/goods/add.html
+[ info ] www.jshop.com/admin/goods/add.html [运行时间：1.381649s][吞吐率：0.72req/s] [内存消耗：2,593.25kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/goods/add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qtj9mv24d8msm0m1426p0ppnro',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\wamp\shop\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\goods\add.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.168849s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.277413s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` <> 0 [ RunTime:0.002676s ]
+---------------------------------------------------------------
+[ 2018-07-15T23:24:41+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/goods/add.html
+[ info ] www.jshop.com/admin/goods/add.html [运行时间：0.311582s][吞吐率：3.21req/s] [内存消耗：2,673.45kb] [文件加载：64]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '86070',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.jshop.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryd895EbVMObLpN6wi',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/goods/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qtj9mv24d8msm0m1426p0ppnro',
+)
+[ info ] [ PARAM ] array (
+  'goods_name' => 'x20',
+  'goods_sn' => '',
+  'cate_id' => '1',
+  'shop_price' => '6000',
+  'is_sale' => '1',
+  'market_price' => '5000',
+  'goods_body' => '21',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\wamp\shop\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to undefined function ftp_connect()[D:\wamp\shop\extend\ftp.php:20]
+---------------------------------------------------------------
+[ 2018-07-15T23:30:25+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/goods/add.html
+[ info ] www.jshop.com/admin/goods/add.html [运行时间：0.194147s][吞吐率：5.15req/s] [内存消耗：2,673.45kb] [文件加载：64]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '86070',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'origin' => 'http://www.jshop.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryd895EbVMObLpN6wi',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/goods/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qtj9mv24d8msm0m1426p0ppnro',
+)
+[ info ] [ PARAM ] array (
+  'goods_name' => 'x20',
+  'goods_sn' => '',
+  'cate_id' => '1',
+  'shop_price' => '6000',
+  'is_sale' => '1',
+  'market_price' => '5000',
+  'goods_body' => '21',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\wamp\shop\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to undefined function ftp_connect()[D:\wamp\shop\extend\ftp.php:20]
+---------------------------------------------------------------
+[ 2018-07-15T23:30:27+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/goods/add.html
+[ info ] www.jshop.com/admin/goods/add.html [运行时间：0.069358s][吞吐率：14.42req/s] [内存消耗：2,593.05kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/goods/add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qtj9mv24d8msm0m1426p0ppnro',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\wamp\shop\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\goods\add.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016146s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.018568s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` <> 0 [ RunTime:0.000245s ]
+---------------------------------------------------------------
+[ 2018-07-15T23:30:30+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/goods/add.html
+[ info ] www.jshop.com/admin/goods/add.html [运行时间：0.138220s][吞吐率：7.23req/s] [内存消耗：2,673.45kb] [文件加载：64]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '86070',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.jshop.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryXCI8KBSAf7NoaA08',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/goods/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qtj9mv24d8msm0m1426p0ppnro',
+)
+[ info ] [ PARAM ] array (
+  'goods_name' => 'x20',
+  'goods_sn' => '',
+  'cate_id' => '1',
+  'shop_price' => '6000',
+  'is_sale' => '1',
+  'market_price' => '5000',
+  'goods_body' => '21',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\wamp\shop\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to undefined function ftp_connect()[D:\wamp\shop\extend\ftp.php:20]
+---------------------------------------------------------------
+[ 2018-07-15T23:32:58+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/goods/add.html
+[ info ] www.jshop.com/admin/goods/add.html [运行时间：0.171905s][吞吐率：5.82req/s] [内存消耗：2,673.45kb] [文件加载：64]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '86070',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'origin' => 'http://www.jshop.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryXCI8KBSAf7NoaA08',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/goods/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qtj9mv24d8msm0m1426p0ppnro',
+)
+[ info ] [ PARAM ] array (
+  'goods_name' => 'x20',
+  'goods_sn' => '',
+  'cate_id' => '1',
+  'shop_price' => '6000',
+  'is_sale' => '1',
+  'market_price' => '5000',
+  'goods_body' => '21',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\wamp\shop\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to undefined function ftp_connect()[D:\wamp\shop\extend\ftp.php:20]
+---------------------------------------------------------------
+[ 2018-07-15T23:33:00+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/goods/add.html
+[ info ] www.jshop.com/admin/goods/add.html [运行时间：0.183231s][吞吐率：5.46req/s] [内存消耗：2,673.45kb] [文件加载：64]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '86070',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'origin' => 'http://www.jshop.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryXCI8KBSAf7NoaA08',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/goods/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qtj9mv24d8msm0m1426p0ppnro',
+)
+[ info ] [ PARAM ] array (
+  'goods_name' => 'x20',
+  'goods_sn' => '',
+  'cate_id' => '1',
+  'shop_price' => '6000',
+  'is_sale' => '1',
+  'market_price' => '5000',
+  'goods_body' => '21',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\wamp\shop\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to undefined function ftp_connect()[D:\wamp\shop\extend\ftp.php:20]
+---------------------------------------------------------------
+[ 2018-07-15T23:38:56+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/goods/add.html
+[ info ] www.jshop.com/admin/goods/add.html [运行时间：0.145186s][吞吐率：6.89req/s] [内存消耗：2,673.45kb] [文件加载：64]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '86070',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'origin' => 'http://www.jshop.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryXCI8KBSAf7NoaA08',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/goods/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qtj9mv24d8msm0m1426p0ppnro',
+)
+[ info ] [ PARAM ] array (
+  'goods_name' => 'x20',
+  'goods_sn' => '',
+  'cate_id' => '1',
+  'shop_price' => '6000',
+  'is_sale' => '1',
+  'market_price' => '5000',
+  'goods_body' => '21',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\wamp\shop\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to undefined function ftp_connect()[D:\wamp\shop\extend\ftp.php:20]
+---------------------------------------------------------------
+[ 2018-07-15T23:38:58+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/goods/add.html
+[ info ] www.jshop.com/admin/goods/add.html [运行时间：0.178865s][吞吐率：5.59req/s] [内存消耗：2,593.05kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/goods/add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qtj9mv24d8msm0m1426p0ppnro',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\wamp\shop\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\goods\add.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001171s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.141444s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` <> 0 [ RunTime:0.000301s ]
+---------------------------------------------------------------
+[ 2018-07-15T23:39:01+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/goods/add.html
+[ info ] www.jshop.com/admin/goods/add.html [运行时间：0.148055s][吞吐率：6.75req/s] [内存消耗：2,673.45kb] [文件加载：64]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '86070',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.jshop.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryNboiFQXHxZi5tjd7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/goods/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qtj9mv24d8msm0m1426p0ppnro',
+)
+[ info ] [ PARAM ] array (
+  'goods_name' => 'x20',
+  'goods_sn' => '',
+  'cate_id' => '1',
+  'shop_price' => '6000',
+  'is_sale' => '1',
+  'market_price' => '5000',
+  'goods_body' => '21',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\wamp\shop\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to undefined function ftp_connect()[D:\wamp\shop\extend\ftp.php:20]
+---------------------------------------------------------------
+[ 2018-07-15T23:40:32+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/goods/add.html
+[ info ] www.jshop.com/admin/goods/add.html [运行时间：0.073221s][吞吐率：13.66req/s] [内存消耗：2,593.05kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/goods/add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qtj9mv24d8msm0m1426p0ppnro',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\wamp\shop\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\goods\add.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000628s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.019401s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` <> 0 [ RunTime:0.018216s ]
+---------------------------------------------------------------
+[ 2018-07-15T23:40:33+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/goods/add.html
+[ info ] www.jshop.com/admin/goods/add.html [运行时间：0.071555s][吞吐率：13.98req/s] [内存消耗：2,593.25kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/goods/add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qtj9mv24d8msm0m1426p0ppnro',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\wamp\shop\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\goods\add.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000605s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.034689s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` <> 0 [ RunTime:0.000280s ]
+---------------------------------------------------------------
+[ 2018-07-15T23:40:49+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/goods/add.html
+[ info ] www.jshop.com/admin/goods/add.html [运行时间：0.143581s][吞吐率：6.96req/s] [内存消耗：2,673.45kb] [文件加载：64]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '86070',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.jshop.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryw1x6jj2tu2BejmDH',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/goods/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qtj9mv24d8msm0m1426p0ppnro',
+)
+[ info ] [ PARAM ] array (
+  'goods_name' => 'x9',
+  'goods_sn' => '',
+  'cate_id' => '1',
+  'shop_price' => '6000',
+  'is_sale' => '1',
+  'market_price' => '5000',
+  'goods_body' => '123',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\wamp\shop\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to undefined function ftp_connect()[D:\wamp\shop\extend\ftp.php:20]
+---------------------------------------------------------------
+[ 2018-07-15T23:44:26+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/goods/add.html
+[ info ] www.jshop.com/admin/goods/add.html [运行时间：0.161916s][吞吐率：6.18req/s] [内存消耗：2,673.45kb] [文件加载：64]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '86070',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'origin' => 'http://www.jshop.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryw1x6jj2tu2BejmDH',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/goods/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qtj9mv24d8msm0m1426p0ppnro',
+)
+[ info ] [ PARAM ] array (
+  'goods_name' => 'x9',
+  'goods_sn' => '',
+  'cate_id' => '1',
+  'shop_price' => '6000',
+  'is_sale' => '1',
+  'market_price' => '5000',
+  'goods_body' => '123',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\wamp\shop\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to undefined function ftp_connect()[D:\wamp\shop\extend\ftp.php:20]
+---------------------------------------------------------------
+[ 2018-07-15T23:44:28+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/goods/add.html
+[ info ] www.jshop.com/admin/goods/add.html [运行时间：0.058117s][吞吐率：17.21req/s] [内存消耗：2,593.05kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/goods/add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qtj9mv24d8msm0m1426p0ppnro',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\wamp\shop\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\goods\add.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000765s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.019898s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` <> 0 [ RunTime:0.000250s ]
+---------------------------------------------------------------
+[ 2018-07-15T23:44:30+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/goods/add.html
+[ info ] www.jshop.com/admin/goods/add.html [运行时间：0.118356s][吞吐率：8.45req/s] [内存消耗：2,673.45kb] [文件加载：64]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '86070',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.jshop.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary9BsO85ZcsOqALnJF',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/goods/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qtj9mv24d8msm0m1426p0ppnro',
+)
+[ info ] [ PARAM ] array (
+  'goods_name' => 'x9',
+  'goods_sn' => '',
+  'cate_id' => '1',
+  'shop_price' => '6000',
+  'is_sale' => '1',
+  'market_price' => '5000',
+  'goods_body' => '123',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\wamp\shop\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to undefined function ftp_connect()[D:\wamp\shop\extend\ftp.php:20]
+---------------------------------------------------------------
+[ 2018-07-15T23:48:14+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/goods/add.html
+[ info ] www.jshop.com/admin/goods/add.html [运行时间：0.143051s][吞吐率：6.99req/s] [内存消耗：2,673.45kb] [文件加载：64]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '86070',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'origin' => 'http://www.jshop.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary9BsO85ZcsOqALnJF',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/goods/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qtj9mv24d8msm0m1426p0ppnro',
+)
+[ info ] [ PARAM ] array (
+  'goods_name' => 'x9',
+  'goods_sn' => '',
+  'cate_id' => '1',
+  'shop_price' => '6000',
+  'is_sale' => '1',
+  'market_price' => '5000',
+  'goods_body' => '123',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\wamp\shop\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to undefined function ftp_connect()[D:\wamp\shop\extend\ftp.php:20]
+---------------------------------------------------------------
+[ 2018-07-15T23:48:16+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/goods/add.html
+[ info ] www.jshop.com/admin/goods/add.html [运行时间：0.059843s][吞吐率：16.71req/s] [内存消耗：2,593.05kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/goods/add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qtj9mv24d8msm0m1426p0ppnro',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\wamp\shop\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\goods\add.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000696s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.021938s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` <> 0 [ RunTime:0.000434s ]
+---------------------------------------------------------------
+[ 2018-07-15T23:48:17+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/goods/add.html
+[ info ] www.jshop.com/admin/goods/add.html [运行时间：0.125093s][吞吐率：7.99req/s] [内存消耗：2,673.45kb] [文件加载：64]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '86070',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.jshop.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryy7CKeSmexkCMZOeF',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/goods/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qtj9mv24d8msm0m1426p0ppnro',
+)
+[ info ] [ PARAM ] array (
+  'goods_name' => 'x9',
+  'goods_sn' => '',
+  'cate_id' => '1',
+  'shop_price' => '6000',
+  'is_sale' => '1',
+  'market_price' => '5000',
+  'goods_body' => '123',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\wamp\shop\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to undefined function ftp_connect()[D:\wamp\shop\extend\ftp.php:20]
+---------------------------------------------------------------
+[ 2018-07-15T23:48:22+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/goods/add.html
+[ info ] www.jshop.com/admin/goods/add.html [运行时间：0.147621s][吞吐率：6.77req/s] [内存消耗：2,673.45kb] [文件加载：64]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '86070',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'origin' => 'http://www.jshop.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryy7CKeSmexkCMZOeF',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/goods/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qtj9mv24d8msm0m1426p0ppnro',
+)
+[ info ] [ PARAM ] array (
+  'goods_name' => 'x9',
+  'goods_sn' => '',
+  'cate_id' => '1',
+  'shop_price' => '6000',
+  'is_sale' => '1',
+  'market_price' => '5000',
+  'goods_body' => '123',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\wamp\shop\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to undefined function ftp_connect()[D:\wamp\shop\extend\ftp.php:20]
+---------------------------------------------------------------
+[ 2018-07-15T23:48:24+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/goods/add.html
+[ info ] www.jshop.com/admin/goods/add.html [运行时间：0.200138s][吞吐率：5.00req/s] [内存消耗：2,673.45kb] [文件加载：64]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '86070',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'origin' => 'http://www.jshop.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryy7CKeSmexkCMZOeF',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/goods/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qtj9mv24d8msm0m1426p0ppnro',
+)
+[ info ] [ PARAM ] array (
+  'goods_name' => 'x9',
+  'goods_sn' => '',
+  'cate_id' => '1',
+  'shop_price' => '6000',
+  'is_sale' => '1',
+  'market_price' => '5000',
+  'goods_body' => '123',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\wamp\shop\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to undefined function ftp_connect()[D:\wamp\shop\extend\ftp.php:20]
+---------------------------------------------------------------
+[ 2018-07-15T23:53:39+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/goods/add.html
+[ info ] www.jshop.com/admin/goods/add.html [运行时间：0.144711s][吞吐率：6.91req/s] [内存消耗：2,673.45kb] [文件加载：64]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '86070',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'origin' => 'http://www.jshop.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryy7CKeSmexkCMZOeF',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/goods/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qtj9mv24d8msm0m1426p0ppnro',
+)
+[ info ] [ PARAM ] array (
+  'goods_name' => 'x9',
+  'goods_sn' => '',
+  'cate_id' => '1',
+  'shop_price' => '6000',
+  'is_sale' => '1',
+  'market_price' => '5000',
+  'goods_body' => '123',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\wamp\shop\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to undefined function ftp_connect()[D:\wamp\shop\extend\ftp.php:20]
+---------------------------------------------------------------
+[ 2018-07-15T23:53:41+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/goods/add.html
+[ info ] www.jshop.com/admin/goods/add.html [运行时间：0.058772s][吞吐率：17.01req/s] [内存消耗：2,593.05kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/goods/add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qtj9mv24d8msm0m1426p0ppnro',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\wamp\shop\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\shop\public/../application/admin\view\goods\add.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000734s ] mysql:host=127.0.0.1;port=3306;dbname=jshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.020960s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `id` <> 0 [ RunTime:0.000298s ]
+---------------------------------------------------------------
+[ 2018-07-15T23:53:42+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/goods/add.html
+[ info ] www.jshop.com/admin/goods/add.html [运行时间：0.118629s][吞吐率：8.43req/s] [内存消耗：2,673.45kb] [文件加载：64]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '86070',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.jshop.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary8tUIx3JLFPnogAJ7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/goods/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qtj9mv24d8msm0m1426p0ppnro',
+)
+[ info ] [ PARAM ] array (
+  'goods_name' => 'x9',
+  'goods_sn' => '',
+  'cate_id' => '1',
+  'shop_price' => '6000',
+  'is_sale' => '1',
+  'market_price' => '5000',
+  'goods_body' => '123',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\wamp\shop\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to undefined function ftp_connect()[D:\wamp\shop\extend\ftp.php:20]
+---------------------------------------------------------------
+[ 2018-07-15T23:57:10+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/goods/add.html
+[ info ] www.jshop.com/admin/goods/add.html [运行时间：0.158834s][吞吐率：6.30req/s] [内存消耗：2,673.52kb] [文件加载：64]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '86070',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'origin' => 'http://www.jshop.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary8tUIx3JLFPnogAJ7',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/goods/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qtj9mv24d8msm0m1426p0ppnro',
+)
+[ info ] [ PARAM ] array (
+  'goods_name' => 'x9',
+  'goods_sn' => '',
+  'cate_id' => '1',
+  'shop_price' => '6000',
+  'is_sale' => '1',
+  'market_price' => '5000',
+  'goods_body' => '123',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\wamp\shop\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]类型错误: Too few arguments to function ftp::__construct(), 3 passed in D:\wamp\shop\application\common.php on line 14 and exactly 4 expected[D:\wamp\shop\extend\ftp.php:19]
+---------------------------------------------------------------
+[ 2018-07-15T23:57:30+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/goods/add.html
+[ info ] www.jshop.com/admin/goods/add.html [运行时间：0.167755s][吞吐率：5.96req/s] [内存消耗：2,673.34kb] [文件加载：64]
+[ info ] [ LANG ] D:\wamp\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.jshop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '86070',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'origin' => 'http://www.jshop.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary8tUIx3JLFPnogAJ7',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.jshop.com/admin/goods/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qtj9mv24d8msm0m1426p0ppnro',
+)
+[ info ] [ PARAM ] array (
+  'goods_name' => 'x9',
+  'goods_sn' => '',
+  'cate_id' => '1',
+  'shop_price' => '6000',
+  'is_sale' => '1',
+  'market_price' => '5000',
+  'goods_body' => '123',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\wamp\shop\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to undefined function ftp_connect()[D:\wamp\shop\extend\ftp.php:20]

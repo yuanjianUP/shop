@@ -1,0 +1,75 @@
+<?php
+namespace app\admin\model;
+use think\Model;
+use think\Db;
+class Goods extends Model{
+	//添加商品
+	public function goodsAdd(){
+		$data = input();
+		//验证商品号
+		if($this->checkGoodsSn($data) === false){
+		    $this -> error = '商品需要唯一';
+			return false;
+		}
+		//验证提交的数据
+		$validate = validate('Goods');
+		$result = $validate -> check($data);
+		if(!$result){
+			$this -> error = $validate -> getError();
+			return false;
+		}
+		//处理上传图片
+		if($this -> uploadImage($data)===false){
+			return false;
+		};
+		//添加商品时间
+		$data['addtime'] = time();
+		Db::name('goods')->strict(false)->insert($data);
+	}
+	//自定义验证上传数据
+	public function checkGoodsSn(&$data){
+		if(!$data['goods_sn']){
+			$data['goods_sn'] = uniqid();
+		}else{
+			if($this -> where('goods_sn','=',$data['goods_sn'])){
+				return false;
+			}
+		}
+	}
+	//处理图片
+	public function uploadImage(&$data){
+		$file = request() -> file('goods_img');
+		if($file == null){
+			$this -> error = '图片必须';
+			return false;
+		}
+		$info = $file ->validate(['ext'=>'png,jpg'])->move('upload');
+		if(!$info){
+			$this -> error = $file -> getError();
+			return false;
+		}
+		//linux中识别'/'所以要转换
+		$data['goods_img'] = str_replace('\\','/','upload/'.$info->getSaveName());
+		
+		//缩略图
+		$image = \think\Image::open($data['goods_img']);
+		$data['goods_thumb'] = 'upload/'.date('Ymd').'/thumb_'.$info->getFileName();
+		$image -> thumb(150,150)->save($data['goods_thumb']);
+		//将图片保存到
+		upload_img_to_cdn($data['goods_img']);
+		upload_img_to_cdn($data['goods_thumb']);
+	}
+	//获取商品列表
+	public function getList(){
+		$sql = "select * from shop_goods";
+		return Db::name('goods')->where('id','<>',0)->paginate(2);
+	}
+}
+
+
+
+
+
+
+
+ ?>
